@@ -1,0 +1,24 @@
+.banner {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-direction: column;
+}
+
+.widget-banner {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; */
+    padding: 45px 40px;
+    background-color: #f3f3f3 !important;
+}
+
+.widget-banner img {
+    max-width: 100%;
+    height: auto;
+}
